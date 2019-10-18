@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ffee58">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivDts"
+        android:src="@drawable/logo"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:id="@+id/tvDtsTitle"
+        android:text="DIGITAL TALENT SCHOLARSHIPS"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        android:layout_above="@id/ivDts"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:id="@+id/tvTahun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:text="2019"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:ignore="HardcodedText" />
+
+    <androidx.appcompat.widget.AppCompatCheckedTextView
+        android:id="@+id/tvCenter"
+        android:gravity="center_horizontal"
+        android:textColor="#000"
+        android:layout_above="@id/tvTahun"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold|italic"
+        android:text="POLITEKNIK NEGERI BANJARMASIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+</RelativeLayout>
+
